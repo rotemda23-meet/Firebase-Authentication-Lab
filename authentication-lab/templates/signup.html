@@ -5,7 +5,7 @@
     <title>Signup</title>
 </head>
 <body>
-    <form method="post" action="/signup">
+    <form method="POST" action="/signup">
         <!-- Heading -->
         <h4>
             Create an account
@@ -29,6 +29,26 @@
             <label>Password*</label>
             <div class="input-group">
                 <input type="password"  name="password" minlength="6">
+            </div>
+        </div>
+        <div>
+            <label>username*</label>
+            <div class="input-group">
+                <input type="text"  name="username" minlength="6">
+            </div>
+        </div>
+
+        <div>
+            <label>bio*</label>
+            <div class="input-group">
+                <input type="text"  name="bio" maxlength="280">
+            </div>
+        </div>
+
+        <div>
+            <label>full name*</label>
+            <div class="input-group">
+                <input type="text"  name="full_name" minlength="6">
             </div>
         </div>
         
